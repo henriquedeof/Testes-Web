@@ -8,7 +8,7 @@ function log(target) {
 }
 
 
-@log
+// @log
 class Foo {
 
 }
