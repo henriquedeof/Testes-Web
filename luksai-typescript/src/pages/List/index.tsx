@@ -7,7 +7,8 @@ const List: React.FC = () => {
     return(
         <div>
             LIST - PAGE
-            <Link to="/dashboard">List of issues</Link>
+            <br />
+            <Link to="/dashboard">Dasboard page</Link>
         </div>
     );
 

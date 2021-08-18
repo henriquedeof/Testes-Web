@@ -10,7 +10,7 @@ const SignIn: React.FC = () => {
     const { signIn } = useAuth();
 
 
-    function handleSubmit(e: any){
+    function handleSubmit(e: React.FormEvent<HTMLFormElement>){
         e.preventDefault();
 
         if(email.trim() !== '' && password.trim() !== ''){
@@ -20,7 +20,6 @@ const SignIn: React.FC = () => {
 
     return(
         <div>
-            SIGNIN - PAGE - PRECISO REDIRECIONAR PRA PAGINA INICIAL CASO ACESSE ALGUM LINK INEXISTENTE E EU ESTOU LOGADO OU NAO
             <h3>FALTA CRIAR VALIDACAO DE LOGIN E SENHA DE MANEIRA MAIS CONSISTENTE</h3>
 
             <div className="container-center">
