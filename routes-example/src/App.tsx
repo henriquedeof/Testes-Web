@@ -13,6 +13,7 @@ function App() {
 
     //Posso utilizar tanto o PrivateRoute quanto o PrivateRouteAlt2
     //O PrivateRouteAlt2 funciona melhor com os propositos do teste.
+    //Comments.
 
     return (
         <AuthProvider>
